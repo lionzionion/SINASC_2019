@@ -4,13 +4,14 @@
 Este repositório contém um script em Python que realiza uma análise exploratória dos dados de nascimentos do Sistema de Informações sobre Nascidos Vivos (SINASC) do ano de 2019. Os dados são carregados a partir de um arquivo CSV disponível online.
 
 ## Passos Realizados:
-Passo 1: Carregar os Dados
+
+## Passo 1: Carregar os Dados
 Os dados são baixados a partir de um URL CSV e carregados em um DataFrame utilizando a biblioteca Pandas.
 
-## Passo 2:
-Visualizações com Matplotlib
+## Passo 2:Visualizações com Matplotlib
 São criados gráficos de barras para visualizar a distribuição de valores para variáveis como APGAR1, APGAR5, Sexo, Idade Gestacional e Estado Civil da Mãe.
 Um gráfico de barras também é gerado para mostrar a média de APGAR5 em relação à quantidade de consultas realizadas.
+
 ## Passo 3: Visualizações com Seaborn
 Utilizando a biblioteca Seaborn, são criados quatro gráficos de contagem em um painel de 2x2. Esses gráficos exploram a distribuição de Sexo, Idade Gestacional, Estado Civil da Mãe e Quantidade de Consultas Pré-natais.
 
@@ -18,7 +19,7 @@ Utilizando a biblioteca Seaborn, são criados quatro gráficos de contagem em um
 
 ### Clone o Repositório:
 
-Clone este repositório para sua máquina local usando o comando git clone <URL-do-Repositório>.
+Clone este repositório para sua máquina local usando o comando git clone https://github.com/lionzionion/SINASC_2019.git.
 
 ### Execute o Código:
 
